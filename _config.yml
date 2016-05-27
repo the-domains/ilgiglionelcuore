@@ -1,28 +1,40 @@
-name: Ilgiglionelcuore
-favicon: null
-layout_spectrum: 0.75021
-typography_spectrum: 0.29992109909653664
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.01133245462551713
+  brandStrength: 0.7750627
+  lightness: 0.8041559264529496
   brandColors:
     - '#fcf1df'
     - '#4c87d5'
     - '#a2caee'
     - '#144182'
     - '#a9a0a6'
-  brandStrength: 0.4535139803774655
-  lightness: 0.8041559264529496
-  saturation: 0.01133245462551713
   rhythmicContrast: 0.3572923308238387
-purpose: []
+typography_spectrum: 0.2999210990965366
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Ilgiglionelcuore
